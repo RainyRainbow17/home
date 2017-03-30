@@ -1,0 +1,52 @@
+body 
+{ 
+		color: red;
+		margin: 1%;
+		/*Let margin be 1% so the text and images don't touch the end of the sreen*/
+		padding: 0;
+		background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/7635/paper.png') repeat;
+}
+ul
+{  
+		margin: 0;
+		padding: 0;
+		overflow: hidden; 
+ } 
+
+li 
+{ 
+		float: left; 
+}
+
+li a 
+{ 
+		display: block; 
+		color: green;
+		text-align: center; 
+		padding: 14px 16px;  
+}
+/*links to be formatted in a straight line on top of page*/
+
+.css-regions 
+{
+		background-image: url(background.jpg);
+		float: left;
+}
+
+img 
+{
+		width:  100%;
+		max-width: 100%;
+
+}
+/*pic of Winnie*/
+.rumbly 
+{
+		color: #333;
+		font-size: 1.5em;
+		line-height: 1.5;
+}
+.refrumbly 
+{ 		
+		color:black;
+}
